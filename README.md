@@ -57,7 +57,7 @@ Check whether one number is divisible by the other number.
 
 **Problem:**
 
-Find the sum of the even numbers from 3 numbers. Suppose there is at least 1 even number.
+Find the sum of the even numbers from 3 numbers.
 
 **Example:**
 
