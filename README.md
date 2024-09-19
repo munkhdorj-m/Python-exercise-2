@@ -1,4 +1,4 @@
-# Python intro exercises
+# Python IF/ELSE
 
 ---
 
@@ -6,12 +6,16 @@
 
 **Problem:**
 
-Print "Hello, World!"
+Find the price of the cinema ticket based on age. If age is under 3 years old, the ticket is free. If ages 3-12, tickets are $10. If 65 or older, tickets are $12. Tickets for all other ages are $15.
 
 **Example:**
 
-	Output:
-	Hello, World!
+| Input | Output |
+|-------|--------|
+| 2     | 0      |
+| 5     | 10     |
+| 30    | 15     |
+| 70    | 12     |
 
 ---
 
@@ -19,15 +23,16 @@ Print "Hello, World!"
 
 **Problem:**
 
-Perform the following operations on two numbers +,-,*,/  
+Check if a number has 4 digits or not.
 
 **Example:**
 
-	Input: 
- 	5.5 2
-	Output:
-	7.5 3.5 11.0 2.75
-
+| Input   | Output |
+|---------|--------|
+| 1234    | True   |
+| 99      | False  |
+| 10000   | False  |
+| 5678    | True   |
 
 ---
 
@@ -35,19 +40,16 @@ Perform the following operations on two numbers +,-,*,/
 
 **Problem:**
 
-Checks if the number is even or odd.
+Check whether one number is divisible by the other number.
 
-**Example**
+**Example:**
 
- 	Input: 
-	5
-  	Output:
-	Odd
-
-  	Input: 
-	8
-  	Output:
-	Even
+| Input  | Output |
+|--------|--------|
+| 10, 2  | True   |
+| 15, 4  | False  |
+| 20, 5  | True   |
+| 7, 3   | False  |
 
 ---
 
@@ -55,19 +57,16 @@ Checks if the number is even or odd.
 
 **Problem:**
 
-From two numbers determine which one is greater or if they are equal.
+Find the sum of the even numbers from 3 numbers. Suppose there is at least 1 even number.
 
-**Example**
+**Example:**
 
-	Input: 5 3
-	Output: 5
- 
-	Input: 2 7
-	Output: 7
- 
-	Input: 4 4
-	Output: Equal
-
+| Input       | Output |
+|-------------|--------|
+| 2, 4, 6     | 12     |
+| 1, 2, 3     | 2      |
+| 5, 7, 8     | 8      |
+| 12, 15, 9   | 12     |
 
 ---
 
@@ -75,16 +74,15 @@ From two numbers determine which one is greater or if they are equal.
 
 **Problem:**
 
-Find the multiplication of the digits of the given 3-digit number
+Convert a time given in hours to days and hours.
 
-**Example**
+**Example:**
 
-	Input: 531
-	Output: 15
- 
-	Input: 123
-	Output: 6
- 
-	Input: 885
-	Output: 320
- 
+| Input  | Output    |
+|--------|-----------|
+| 48     | (2, 0)    |
+| 25     | (1, 1)    |
+| 72     | (3, 0)    |
+| 49     | (2, 1)    |
+
+---
