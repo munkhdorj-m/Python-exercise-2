@@ -83,6 +83,6 @@ Convert a time given in hours to days and hours.
 | 48     |  2  0     |
 | 25     |  1  1     |
 | 72     |  3  0     |
-| 49     |  2  1     |
+| 39     |  1  15     |
 
 ---
