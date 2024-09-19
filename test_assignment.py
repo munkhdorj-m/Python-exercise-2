@@ -7,7 +7,7 @@ from assignment import find_ticket_price, is_four_digit_number, is_divisible, su
     (30, 15),
     (70, 12)
 ])
-def test_find_ticket_price(age, expected):
+def test1(age, expected):
     assert find_ticket_price(age) == expected
 
 @pytest.mark.parametrize("number, expected", [
@@ -16,7 +16,7 @@ def test_find_ticket_price(age, expected):
     (10000, False),
     (5678, True)
 ])
-def test_is_four_digit_number(number, expected):
+def test2(number, expected):
     assert is_four_digit_number(number) == expected
 
 @pytest.mark.parametrize("num1, num2, expected", [
@@ -25,7 +25,7 @@ def test_is_four_digit_number(number, expected):
     (20, 5, True),
     (7, 3, False)
 ])
-def test_is_divisible(num1, num2, expected):
+def test3(num1, num2, expected):
     assert is_divisible(num1, num2) == expected
 
 @pytest.mark.parametrize("num1, num2, num3, expected", [
@@ -34,7 +34,7 @@ def test_is_divisible(num1, num2, expected):
     (5, 7, 8, 8),
     (12, 15, 9, 12)
 ])
-def test_sum_of_even_numbers(num1, num2, num3, expected):
+def test4(num1, num2, num3, expected):
     assert sum_of_even_numbers(num1, num2, num3) == expected
 
 
@@ -44,5 +44,5 @@ def test_sum_of_even_numbers(num1, num2, num3, expected):
     (72, (3, 0)),
     (49, (2, 1))
 ])
-def test_convert_time_to_days_hours(hours, expected):
+def test5(hours, expected):
     assert convert_time_to_days_hours(hours) == expected
