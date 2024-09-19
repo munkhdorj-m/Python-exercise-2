@@ -1,26 +1,26 @@
 # You can remove 'pass' if you written code in the function 
 
 # Exercise 1
-def greet():
+def find_ticket_price(age):
     # Write your code here
     pass
 
 # Exercise 2
-def perform_operations(a, b):
+def is_four_digit_number(number):
     # Write your code here
     pass
 
 # Exercise 3
-def check_even_odd(n):
+def is_divisible(num1, num2):
     # Write your code here
     pass
 
 # Exercise 4
-def compare_numbers(num1, num2):
+def sum_of_even_numbers(num1, num2, num3):
     # Write your code here
     pass
 
 # Exercise 5
-def multiply_digits(num):
+def convert_time_to_days_hours(hours):
     # Write your code here
     pass
