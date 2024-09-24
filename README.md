@@ -1,5 +1,15 @@
 # Python IF/ELSE
 
+You have to return boolean types for true and false
+DO:
+
+    return False
+    return True
+
+Not
+
+    return "False"
+    return "True"
 ---
 
 ## Exercise 1
