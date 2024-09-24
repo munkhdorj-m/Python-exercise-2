@@ -1,7 +1,6 @@
 # Python IF/ELSE
 
-You have to return boolean types for true and false
-DO:
+You have to return boolean types for true and false:
 
     return False
     return True
